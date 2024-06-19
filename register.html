@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="loginhead">
+            <button class="btn-back"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="tab-heading">Login</div>
+        </nav>
+        
+        <section>
+            <form action="#" method="POST">
+                <div class="row m-0">
+                    <div class="col-12 p-0 login-form-input">
+                        <div class="form-group d-flex align-items-center inner-login-form">
+                            <span class="login-input-icon"><i class="fa-solid fa-mobile-screen"></i></span>
+                            <input type="text" name="contact" id="contact" minlength="3" maxlength="13" class="form-control no-border" placeholder="Mobile Number">
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 login-form-input">
+                        <div class="form-group d-flex align-items-center inner-login-form">
+                            <span class="login-input-icon"><i class="fa-solid fa-message"></i></span>
+                            <input type="number" name="otp" id="otp" class="form-control no-border" placeholder="Verification Code">
+                            <button type="button" class="get-otp btn btn-primary">OTP</button>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 login-form-input">
+                        <div class="form-group d-flex align-items-center inner-login-form">
+                            <img src="./assets/img/key.png" alt="key image" class="login-input-image">
+                            <input type="password" name="password" id="password" class="form-control no-border" placeholder="Password">
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 p-0 login-form-input">
+                        <div class="form-group d-flex align-items-center inner-login-form">
+                            <span class="login-input-icon"><i class="fa-solid fa-bag-shopping"></i></i></span>
+                            <input type="text" name="id" id="id" class="form-control no-border" value="1657819">
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 login-form-input">
+                        <div class="form-group d-flex align-items-center inner-login-form">
+                            <input type="checkbox" name="agree" id="agree" class="no-border checkbox">
+                            <span class="ms-4">|agree</span>
+                            <a href="#" class="ms-4 privacy">PRIVACY POLICY</a>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-login">Register</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <ul class="footer-link">
+                <li class="footer-li">
+                    <a href="main.html">
+                        <div class="footer-div">
+                            <img src="./assets/img/home.png" alt="home icon" class="footer-login-img">
+                            <span class="footer-name">Home</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="search.html">
+                        <div class="footer-div">
+                            <img src="./assets/img/wallet.png" alt="search icon" class="footer-login-img">
+                            <span class="footer-name">Search</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="login.html">
+                        <div class="footer-div">
+                            <img src="./assets/img/user.png" alt="user icon" class="footer-login-img">
+                            <span class="footer-name">My</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+    </div>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
